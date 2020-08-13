@@ -30,9 +30,8 @@ let startGame = function () {
       claim = confirm("Загаданное число больше.");
       getData(claim);
     }
-
-    return getNumber;
   };
+  return getNumber;
 };
 
 let number = startGame();
